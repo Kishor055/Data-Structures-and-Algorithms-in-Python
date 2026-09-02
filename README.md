@@ -45,3 +45,69 @@ Whether you are preparing for technical interviews, brushing up on computer scie
  ┃   ┗ 📜 Knapsack.py
  ┣ 📜 README.md
  ┗ 📜 requirements.txt
+```markdown
+<div align="center">
+
+*(Note: This structure represents the core categories and will expand as new algorithms are added.)*
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have Python installed on your local machine.
+
+### Installation
+
+1. **Clone the repository:**
+```bash
+git clone [https://github.com/Kishor055/Data-Structures-and-Algorithms-in-Python.git](https://github.com/Kishor055/Data-Structures-and-Algorithms-in-Python.git)
+cd Data-Structures-and-Algorithms-in-Python
+
+```
+
+
+2. **Set up a virtual environment (Optional but recommended):**
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+
+```
+
+
+
+## 💻 Usage Example
+
+Every data structure and algorithm is designed to be easily importable. Here is how you might use the implementations in your own scripts:
+
+```python
+from Data_Structures.Binary_Tree import BinarySearchTree
+
+# Initialize the BST
+bst = BinarySearchTree()
+
+# Insert nodes utilizing default class behaviors
+nodes_to_insert = [10, 5, 15, 2, 7, 12, 20]
+for val in nodes_to_insert:
+    bst.insert(val)
+
+# Perform traversal
+print("Inorder Traversal:", bst.inorder_traversal())
+# Output: [2, 5, 7, 10, 12, 15, 20]
+
+```
+
+## 🤝 Contributing
+
+Contributions make the open-source community an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingAlgorithm`)
+3. Commit your Changes (`git commit -m 'Add some AmazingAlgorithm'`)
+4. Push to the Branch (`git push origin feature/AmazingAlgorithm`)
+5. Open a Pull Request
+
+## 📜 License
+
+Distributed under the MIT License. See the `LICENSE` file for more information.
+
+---
